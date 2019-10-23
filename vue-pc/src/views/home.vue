@@ -4,6 +4,8 @@
         <br>
         <router-link to="richtextQuill">richtextQuill富文本</router-link>
         <br>
+        <router-link to="froalaEditor">froala-editor 富文本 好看又好用，只不过要收费，这里是破解版</router-link>
+        <br>
         <router-link to="/api">api</router-link>
         <br>
         <router-link to="/waves">waves水波纹</router-link>
@@ -17,6 +19,8 @@
         <router-link to="/readJson">读取json文件</router-link>
         <br>
         <router-link to="/drag">拖拽</router-link>
+        <br>
+        <router-link to="/imgRotate">图片翻转</router-link>
     </div>
 </template>
 

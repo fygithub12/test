@@ -6,9 +6,22 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--<link rel="icon" href="<%= BASE_URL %>favicon.ico">-->
     <link rel="icon" href="favicon.png">
-    <title>xilong</title>
+    <title>tai</title>
+    <link rel="stylesheet" href="./froala-editor/froala_editor.pkgd.min.css">
+    <script src="./froala-editor/froala_editor.pkgd.min.js"></script>
+    <link rel="stylesheet" href="./froala-editor/froala_style.css">
+    <script src="./froala-editor/zh_cn.js"></script>
+    <style>
+      .fr-wrapper > div[style*='z-index: 9999'] {
+        position: absolute;
+        top: -10000px;
+        opacity: 0;
+        display: none;
+      }
+    </style>
 </head>
 <body>
+<div></div>
 <noscript>
     <strong>您的浏览器不支持JavaScript执行</strong>
 </noscript>
